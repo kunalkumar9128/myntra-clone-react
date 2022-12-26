@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 .App-logo {
@@ -11,6 +12,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.css-1w49cgy-MuiFormControl-root{
+  margin: auto auto;
 }
 
 .App-header {
@@ -35,4 +39,140 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.left-sec{
+  width: 20vw;
+  border: #282c34 solid 0.8px;
+}
+
+
+
+.autocomplete{
+  margin: auto;
+}
+
+.middle-section{
+  display: flex;
+}
+
+.middle{
+  padding: 0.5rem;
+}
+footer{
+  margin-top: 3rem;
+}
+
+li{
+  list-style: none;
+}
+
+.product .top{
+  display: flex;
+}
+.product{
+  margin: 2rem;
+}
+.Buy{
+  display: flex;
+  justify-content: space-between;
+}
+.Buy Button{
+  margin: 5px 20px;
+}
+
+.p-left{
+  width: 27vw;
+}
+.p-right{
+  width: auto;
+}
+.mrp{
+  text-decoration: line-through;
+}
+.rating-button{
+  border-color: gray;
+}
+
+
+.btn1 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 50%;
+  font-family: Arial;
+  color: #f589b4;
+  font-size: 20px;
+  background: #ffffff;
+  padding: 7px 10px 7px 10px;
+  border: solid #f589b4 0.9px;
+  text-decoration: none;
+  margin:0.5rem;
+}
+.container{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+     margin-left: 0;
+}
+.Select{
+  width: 15rem;
+margin: 1rem 7rem;
+
+}
+
+.btn1:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 1400px;
+  }
+}
+
+.coco {
+  width: 60px;
+  /*border: 1px solid blue;*/
+}
+
+.nav-item {
+  font-weight: bold;
+  color: black;
+}
+
+.nav-item,
+.nav-link {
+  font-size: 17px;
+  color: black;
+}
+
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+
+}
+
+input[type="text"] {
+  outline: none;
+  box-shadow: none !important;
+  border: 1px solid #ccc !important;
+}
+
+
+.sort{
+  width: 15vw;
+  margin: auto;
+  margin-bottom: 1rem;
 }
